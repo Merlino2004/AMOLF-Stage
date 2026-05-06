@@ -1,0 +1,5 @@
+﻿"""BreakTime #s""","""EtchRate #ummin""","""Selectivity ""","""SidewallAngle #degree ""","""Undercut #um ""","""Scallops #um ""","""MicromaskingLength #um ""","""EtchDepth #um ""","""Voltage #V """
+1.6,12.92,78,88.1,0,0,0,32.292,6.47
+2,13.69,83,90,0,0,0,34.224,7.35
+2.5,14.57,66,90.8,0,0,0,36.432,7.42
+3,13.68,54,91.4,0,0,0,34.21,7.2
