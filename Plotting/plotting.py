@@ -29,8 +29,8 @@ class Plotting:
 
         # Determining uncertainties
         self.error_selectivity = 2 # - 
-        self.error_angle = 2 # \degree
-        self.error_length = 0.1 # um, all lengths measured
+        self.error_angle = 1 # \degree
+        self.error_length = 0.08 # um, all lengths measured
         self.error_micromaskingratio = 0.05 # -
 
         self.error_pressure = 0.0005*pressure if pressure is not None else None # mTorr
