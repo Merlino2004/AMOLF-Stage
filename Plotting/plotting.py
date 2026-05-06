@@ -37,7 +37,7 @@ class Plotting:
         self.error_power = 0.015*power if power is not None else None # W
         self.error_voltage = 0.01*voltage if voltage is not None else None # V
         self.error_time = 0.03*loops/60 if time is not None else None # min
-        self.error_gasflow = 0.005*gasflow if gasflow is not None else None # sccm
+        self.error_gasflow = 0.01*gasflow if gasflow is not None else None # sccm
 
     def PlotEtchQuality(self):
         self.angle = a
