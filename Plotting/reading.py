@@ -16,5 +16,5 @@ def ReadingData(csv_name,printing='no'):
 
                 df = pd.DataFrame(data,columns=header)
                 if printing == 'yes':
-                        print(df)
+                        print(f'{df} \n')
         return df
